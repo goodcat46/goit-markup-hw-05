@@ -17,9 +17,6 @@ background:
 Спецсимволи
 https://unicode-table.com/ru/html-entities/#block-math
 
-Відцентрував іконки партнерів FLEX-ами 
-і соцмереж задопомогою padding
-
 ---------- visually-hidden.css
 .visually-hidden {
   position: absolute;
@@ -35,3 +32,9 @@ https://unicode-table.com/ru/html-entities/#block-math
   overflow: hidden;
 }
 ---------- 
+.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+  /* visibility: hidden Блокує плавний перехід модального вікна у зворотньому напрямку */ 
+}
